@@ -1,3 +1,5 @@
+import { langArr } from "/js/lang.js"
+
 const langs = [
     document.getElementById("ru"),
     document.getElementById("en")
@@ -9,3 +11,6 @@ document.querySelectorAll(".info__language--text").forEach (el=> {
         e.target.classList.add("info__language--bold") 
     })
 } )
+
+const La = langArr
+console.log(La);
