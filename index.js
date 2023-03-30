@@ -12,5 +12,8 @@ document.querySelectorAll(".info__language--text").forEach (el=> {
     })
 } )
 
-const La = langArr
-console.log(La);
+const lang = langArr
+
+document.getElementById("home").innerHTML=lang.ru.nav.home;
+
+console.log(lang.ru.nav.home);
